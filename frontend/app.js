@@ -20,7 +20,7 @@
    CONFIGURATION
 ========================================================== */
 
-const API_BASE_URL = "http://localhost:8000";
+const API_BASE_URL = "https://agrisense-voice-api.onrender.com";
 
 const HISTORY_KEY = "agrisense_ai_history_v3";
 
