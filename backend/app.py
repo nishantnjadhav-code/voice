@@ -7,6 +7,7 @@ from typing import Any, Dict, Optional
 import httpx
 from dotenv import load_dotenv
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
@@ -16,6 +17,7 @@ from pydantic import BaseModel, Field
 # ============================================================
 
 BASE_DIR = Path(__file__).resolve().parent.parent
+FRONTEND_DIR = BASE_DIR / "frontend"
 
 load_dotenv(BASE_DIR / ".env")
 
@@ -1561,6 +1563,40 @@ async def ask(
 
 
 # ============================================================
+# FRONTEND — SERVE THE UI FROM THE SAME RENDER SERVICE
+# ============================================================
+#
+# One Render URL now serves both the frontend and backend:
+#
+#   /             -> frontend/index.html
+#   /app.js       -> frontend/app.js
+#   /style.css    -> frontend/style.css
+#
+# API routes remain:
+#   /api/health
+#   /api/sensors
+#   /api/ask
+#
+# This mount is intentionally placed AFTER the API routes.
+# ============================================================
+
+if FRONTEND_DIR.exists():
+    app.mount(
+        "/",
+        StaticFiles(
+            directory=str(FRONTEND_DIR),
+            html=True
+        ),
+        name="frontend"
+    )
+else:
+    print(
+        "Frontend directory not found:",
+        FRONTEND_DIR
+    )
+
+
+# ============================================================
 # LOCAL DEVELOPMENT ENTRY POINT
 # ============================================================
 
@@ -1574,7 +1610,7 @@ if __name__ == "__main__":
 
         host="0.0.0.0",
 
-        port=8000,
+        port=8001,
 
         reload=True
 
