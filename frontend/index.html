@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#030806"
+    >
+
+    <meta
+        name="description"
+        content="AgriSense AI - Smart Voice Assistant for Farmers"
+    >
+
+    <title>AgriSense AI — Farmer Intelligence</title>
+
+    <link
+        rel="stylesheet"
+        href="style.css"
+    >
+</head>
+
+<body>
+
+    <!-- =====================================================
+         AMBIENT BACKGROUND
+    ====================================================== -->
+
+    <div class="ambient ambient-a"></div>
+    <div class="ambient ambient-b"></div>
+    <div class="ambient ambient-c"></div>
+
+
+    <!-- =====================================================
+         TOP NAVIGATION
+    ====================================================== -->
+
+    <header class="topbar glass">
+
+        <a
+            href="#"
+            class="brand"
+        >
+
+            <div class="brand-mark">
+                🌾
+            </div>
+
+            <div class="brand-text">
+
+                <h1>
+                    AgriSense
+                    <em>AI</em>
+                </h1>
+
+                <p>
+                    Farmer Intelligence • Voice First
+                </p>
+
+            </div>
+
+        </a>
+
+
+        <div class="top-actions">
+
+            <div
+                class="connection-pill"
+                id="connectionStatus"
+            >
+
+                <span class="connection-dot"></span>
+
+                <span>
+                    CONNECTING
+                </span>
+
+            </div>
+
+
+            <button
+                class="icon-button"
+                id="glowButton"
+                title="Toggle ambient glow"
+                aria-label="Toggle ambient glow"
+            >
+                ✦
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         MAIN PAGE
+    ====================================================== -->
+
+    <main class="page">
+
+
+        <!-- =================================================
+             HERO SECTION
+        ================================================== -->
+
+        <section class="hero-section">
+
+
+            <!-- LEFT HERO CONTENT -->
+
+            <div class="hero-content">
+
+                <div class="eyebrow">
+
+                    <span class="eyebrow-line"></span>
+
+                    AGRICULTURAL INTELLIGENCE
+
+                </div>
+
+
+                <h2 class="hero-title">
+
+                    Ask your farm.
+
+                    <br>
+
+                    <strong>
+                        Get a smarter answer.
+                    </strong>
+
+                </h2>
+
+
+                <p class="hero-description">
+
+                    A voice-first AI companion for irrigation,
+                    crops, soil, pests, harvesting, planning
+                    and live farm signals.
+
+                </p>
+
+
+                <!-- LANGUAGE SELECTOR -->
+
+                <div class="language-panel glass">
+
+                    <span class="language-label">
+                        LANGUAGE
+                    </span>
+
+
+                    <div class="language-buttons">
+
+                        <button
+                            class="language-button active"
+                            data-language="English"
+                        >
+                            English
+                        </button>
+
+
+                        <button
+                            class="language-button"
+                            data-language="Marathi"
+                        >
+                            मराठी
+                        </button>
+
+
+                        <button
+                            class="language-button"
+                            data-language="Hindi"
+                        >
+                            हिन्दी
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUICK QUESTIONS -->
+
+                <div class="quick-questions">
+
+                    <button
+                        class="quick-question"
+                        data-question="How much water does my tomato crop need?"
+                    >
+                        <span>💧</span>
+                        Irrigation
+                    </button>
+
+
+                    <button
+                        class="quick-question"
+                        data-question="Is my soil moisture suitable for my crop?"
+                    >
+                        <span>🌱</span>
+                        Soil
+                    </button>
+
+
+                    <button
+                        class="quick-question"
+                        data-question="How should I manage pests in my crop?"
+                    >
+                        <span>🐛</span>
+                        Pest Advice
+                    </button>
+
+
+                    <button
+                        class="quick-question"
+                        data-question="What should I consider before harvesting my crop?"
+                    >
+                        <span>🌾</span>
+                        Harvest
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 VOICE ASSISTANT
+            ================================================== -->
+
+            <div class="voice-card glass">
+
+
+                <!-- ROTATING ORBITS -->
+
+                <div class="voice-orbit voice-orbit-one"></div>
+
+                <div class="voice-orbit voice-orbit-two"></div>
+
+                <div class="voice-orbit voice-orbit-three"></div>
+
+
+                <!-- GLOW CORE -->
+
+                <div class="voice-glow"></div>
+
+
+                <!-- MICROPHONE -->
+
+                <div class="microphone-container">
+
+                    <div class="microphone-ring"></div>
+
+                    <div class="microphone-ring ring-two"></div>
+
+
+                    <button
+                        id="micButton"
+                        class="microphone-button"
+                        aria-label="Tap to ask"
+                    >
+
+                        <span class="microphone-icon">
+                            🎙
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="micText"
+                    class="voice-status-title"
+                >
+                    TAP TO ASK
+                </div>
+
+
+                <p
+                    id="statusText"
+                    class="voice-status-description"
+                >
+                    Speak naturally. AgriSense will listen.
+                </p>
+
+
+                <!-- AUDIO WAVE -->
+
+                <div class="audio-wave">
+
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <i></i>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             TEXT QUESTION BAR
+        ================================================== -->
+
+        <section class="question-bar glass">
+
+            <div class="question-icon">
+                ⌁
+            </div>
+
+
+            <input
+                type="text"
+                id="questionInput"
+                placeholder="Type your farming question here..."
+                autocomplete="off"
+            >
+
+
+            <button
+                id="askButton"
+                class="ask-button"
+            >
+
+                ASK AGRISENSE
+
+                <span>
+                    →
+                </span>
+
+            </button>
+
+        </section>
+
+
+
+        <!-- =================================================
+             DASHBOARD
+        ================================================== -->
+
+        <section class="dashboard-grid">
+
+
+            <!-- =================================================
+                 AI ADVICE
+            ================================================== -->
+
+            <div class="advice-card glass">
+
+
+                <div class="card-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            LATEST ADVICE
+                        </span>
+
+                        <h3>
+                            AgriSense recommendation
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        id="answerSource"
+                        class="source-badge"
+                    >
+                        🧠 AI KNOWLEDGE
+                    </div>
+
+                </div>
+
+
+
+                <!-- EMPTY STATE -->
+
+                <div
+                    id="answerEmpty"
+                    class="answer-empty"
+                >
+
+                    <div class="answer-symbol">
+                        ✦
+                    </div>
+
+                    <h4>
+                        Your farm advice will appear here
+                    </h4>
+
+                    <p>
+                        Ask a question by voice or text
+                        to get started.
+                    </p>
+
+                </div>
+
+
+
+                <!-- ACTUAL ANSWER -->
+
+                <div
+                    id="answerBody"
+                    class="answer-body"
+                    hidden
+                ></div>
+
+
+
+                <!-- ANSWER CONTROLS -->
+
+                <div class="answer-actions">
+
+                    <button
+                        id="speakButton"
+                        class="small-action-button"
+                    >
+                        🔊 SPEAK
+                    </button>
+
+
+                    <button
+                        id="stopButton"
+                        class="small-action-button"
+                    >
+                        ⏹ STOP
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 LIVE FARM SENSOR PANEL
+            ================================================== -->
+
+            <aside class="sensor-card glass">
+
+
+                <div class="card-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            FARM PULSE
+                        </span>
+
+                        <h3>
+                            Live field signals
+                        </h3>
+
+                    </div>
+
+
+                    <div
+                        id="sensorStatus"
+                        class="sensor-status"
+                    >
+                        ● OFFLINE
+                    </div>
+
+                </div>
+
+
+
+                <!-- SENSOR VALUES -->
+
+                <div class="sensor-grid">
+
+
+                    <div class="sensor-item">
+
+                        <span>
+                            SOIL MOISTURE
+                        </span>
+
+                        <strong id="soilMoisture">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="sensor-item">
+
+                        <span>
+                            TEMPERATURE
+                        </span>
+
+                        <strong id="temperature">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="sensor-item">
+
+                        <span>
+                            HUMIDITY
+                        </span>
+
+                        <strong id="humidity">
+                            —
+                        </strong>
+
+                    </div>
+
+
+                    <div class="sensor-item">
+
+                        <span>
+                            AIR QUALITY
+                        </span>
+
+                        <strong id="airQuality">
+                            —
+                        </strong>
+
+                    </div>
+
+                </div>
+
+
+                <p class="sensor-note">
+
+                    Only actual values returned by your
+                    ThingSpeak channel are displayed.
+
+                </p>
+
+            </aside>
+
+        </section>
+
+
+
+        <!-- =================================================
+             QUESTION HISTORY
+        ================================================== -->
+
+        <section class="history-card glass">
+
+
+            <div class="history-header">
+
+                <div>
+
+                    <span class="section-label">
+                        MEMORY • 30 DAYS
+                    </span>
+
+                    <h3>
+                        My Questions
+                    </h3>
+
+                </div>
+
+
+                <button
+                    id="clearHistoryButton"
+                    class="clear-button"
+                >
+                    CLEAR ALL
+                </button>
+
+            </div>
+
+
+
+            <!-- STATISTICS -->
+
+            <div class="statistics-grid">
+
+
+                <div class="stat-item">
+
+                    <span>
+                        THIS MONTH
+                    </span>
+
+                    <strong id="monthCount">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <span>
+                        MARATHI
+                    </span>
+
+                    <strong id="marathiCount">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <span>
+                        HINDI
+                    </span>
+
+                    <strong id="hindiCount">
+                        0
+                    </strong>
+
+                </div>
+
+
+                <div class="stat-item">
+
+                    <span>
+                        ENGLISH
+                    </span>
+
+                    <strong id="englishCount">
+                        0
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- SEARCH -->
+
+            <div class="history-search">
+
+                <span>
+                    ⌕
+                </span>
+
+                <input
+                    id="historySearch"
+                    type="search"
+                    placeholder="Search previous questions..."
+                >
+
+            </div>
+
+
+
+            <!-- HISTORY -->
+
+            <div
+                id="historyList"
+                class="history-list"
+            ></div>
+
+
+            <!-- EMPTY HISTORY -->
+
+            <div
+                id="emptyHistory"
+                class="history-empty"
+            >
+
+                <div>
+                    ◌
+                </div>
+
+                <p>
+                    No saved questions yet.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        AGRISENSE AI
+
+        <span>
+            •
+        </span>
+
+        SIMPLE FARMER INTELLIGENCE
+
+    </footer>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="app.js"></script>
+
+</body>
+</html>

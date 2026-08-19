@@ -1,0 +1,85 @@
+{
+  "english": {
+    "What is NPK?": "NPK stands for Nitrogen (N), Phosphorus (P), and Potassium (K). Nitrogen mainly supports leaf and vegetative growth, phosphorus supports root development and reproductive growth, and potassium supports plant strength, water regulation, stress tolerance, and crop quality.",
+
+    "What is nitrogen in fertilizer?": "Nitrogen (N) supports vegetative growth, leaf development, and overall plant growth. The required amount depends on the crop, growth stage, soil condition, and soil-test results.",
+
+    "What is phosphorus in fertilizer?": "Phosphorus (P) supports root development, crop establishment, flowering, and reproductive development. The actual requirement should be based on the crop and soil condition.",
+
+    "What is potassium in fertilizer?": "Potassium (K) supports plant strength, water regulation, stress tolerance, and crop or fruit quality. The required amount depends on the crop and soil nutrient status.",
+
+    "Which fertilizer is recommended for wheat?": "Wheat requires balanced nutrition, particularly nitrogen, phosphorus, and potassium. Nitrogen supports vegetative growth, phosphorus supports root development and establishment, and potassium supports plant strength and stress tolerance. The exact fertilizer and quantity should be selected according to soil-test results, crop stage, and local agricultural recommendations.",
+
+    "Which nutrients does tomato need?": "Tomato requires nitrogen, phosphorus, and potassium for healthy growth and fruit development. Calcium, magnesium, sulphur, and certain micronutrients may also be important depending on soil condition and crop symptoms. The nutrient requirement changes with the crop stage.",
+
+    "Why is soil testing important?": "Soil testing helps determine the nutrient status and other important properties of the soil. It helps farmers avoid unnecessary fertilizer use and choose a more appropriate nutrient-management plan.",
+
+    "How should I manage pests in my crop?": "Use an Integrated Pest Management (IPM) approach. First identify and monitor the pest. Use preventive and cultural practices, remove or manage affected plant material where appropriate, encourage beneficial organisms, and use mechanical or physical control when practical. Chemical pesticides should be considered only when necessary and must be used according to the product label and recommended safety precautions. For a crop-specific recommendation, provide the crop name and describe the pest or symptoms.",
+
+    "What should I do if my crop has pests?": "First identify the pest and assess its level in the crop. Use monitoring, field sanitation, cultural practices, mechanical or physical control, and biological control where appropriate. If chemical control becomes necessary, use only a suitable registered product according to its label and safety instructions. Share the crop name and pest symptoms for more specific guidance.",
+
+    "When should I irrigate my crop?": "Irrigation should be based on crop stage, soil type, soil moisture, weather conditions, and water requirements. Avoid both excessive irrigation and water stress. If you have a soil-moisture sensor, its reading can be used together with crop and soil information to make a better irrigation decision.",
+
+    "Why should I not overuse fertilizer?": "Excessive fertilizer can cause nutrient imbalance, salt accumulation, nutrient losses, environmental pollution, and possible crop damage. Fertilizer should be applied according to crop requirements, soil-test results, crop stage, and local recommendations.",
+
+    "What is integrated pest management?": "Integrated Pest Management (IPM) combines pest monitoring, preventive and cultural practices, mechanical or physical control, biological control, and chemical control when necessary. The goal is to manage pests effectively while reducing unnecessary pesticide use.",
+
+    "Why are crop diseases difficult to identify?": "Different diseases, pests, nutrient deficiencies, and environmental stresses can produce similar symptoms. Accurate identification requires information such as crop type, affected plant part, symptom appearance, progression, field conditions, and sometimes a photograph or expert diagnosis."
+  },
+
+  "marathi": {
+    "NPK म्हणजे काय?": "NPK म्हणजे नत्र (N), स्फुरद (P) आणि पालाश (K). नत्रामुळे पानांची व शाकीय वाढ होते, स्फुरदामुळे मुळांची वाढ आणि प्रजनन विकासास मदत होते, तर पालाशामुळे झाडाची ताकद, पाण्याचे नियमन, ताण सहन करण्याची क्षमता आणि पिकाची गुणवत्ता सुधारण्यास मदत होते.",
+
+    "खतामधील नत्र म्हणजे काय?": "नत्र (N) पिकाची शाकीय वाढ, पानांची वाढ आणि एकूण वाढीस मदत करते. नत्राची गरज पिकाचा प्रकार, वाढीची अवस्था, जमिनीची स्थिती आणि माती परीक्षणाच्या निकालावर अवलंबून असते.",
+
+    "खतामधील स्फुरद म्हणजे काय?": "स्फुरद (P) मुळांची वाढ, पिकाची सुरुवातीची वाढ, फुलोरा आणि प्रजनन विकासासाठी महत्त्वाचे आहे. त्याचे प्रमाण पिकाचा प्रकार आणि जमिनीतील पोषक घटकांच्या उपलब्धतेनुसार ठरवावे.",
+
+    "खतामधील पालाश म्हणजे काय?": "पालाश (K) झाडाची ताकद, पाण्याचे नियमन, ताण सहन करण्याची क्षमता आणि पिकाची किंवा फळांची गुणवत्ता सुधारण्यास मदत करते. त्याची गरज पिकाचा प्रकार आणि जमिनीतील पोषक स्थितीवर अवलंबून असते.",
+
+    "गव्हासाठी कोणते खत वापरावे?": "गव्हाला संतुलित पोषणाची गरज असते, विशेषतः नत्र, स्फुरद आणि पालाश या प्रमुख पोषक घटकांची. नत्रामुळे वाढीस, स्फुरदामुळे मुळांच्या विकासास आणि सुरुवातीच्या वाढीस, तर पालाशामुळे झाडाची ताकद व ताण सहन करण्यास मदत होते. अचूक खत आणि मात्रा माती परीक्षण, पिकाची अवस्था आणि स्थानिक कृषी शिफारशींनुसार ठरवावी.",
+
+    "टोमॅटो पिकाला कोणते पोषक घटक आवश्यक आहेत?": "टोमॅटो पिकाच्या वाढीसाठी आणि फळांच्या विकासासाठी नत्र, स्फुरद आणि पालाश आवश्यक आहेत. जमिनीची स्थिती आणि पिकाची लक्षणे यानुसार कॅल्शियम, मॅग्नेशियम, गंधक आणि काही सूक्ष्म अन्नद्रव्येही महत्त्वाची ठरू शकतात. पोषक घटकांची गरज पिकाच्या वाढीच्या अवस्थेनुसार बदलते.",
+
+    "माती परीक्षण का महत्त्वाचे आहे?": "माती परीक्षणामुळे जमिनीतील पोषक घटकांची स्थिती आणि इतर महत्त्वाचे गुणधर्म समजतात. त्यामुळे अनावश्यक खतांचा वापर टाळता येतो आणि पिकासाठी योग्य पोषण व्यवस्थापनाचे नियोजन करता येते.",
+
+    "पिकांवरील किडींचे व्यवस्थापन कसे करावे?": "एकात्मिक कीड व्यवस्थापन म्हणजे IPM पद्धतीचा वापर करा. प्रथम कीड ओळखा आणि तिचे निरीक्षण करा. प्रतिबंधात्मक व सांस्कृतिक उपाय करा, आवश्यक असल्यास बाधित भागाचे व्यवस्थापन करा, उपयुक्त जैविक घटकांचे संरक्षण करा आणि शक्य असल्यास यांत्रिक किंवा भौतिक नियंत्रण वापरा. रासायनिक कीटकनाशकांचा वापर गरज असल्यासच करा आणि उत्पादनाच्या लेबलवरील सूचना व सुरक्षितता नियम पाळा. विशिष्ट सल्ल्यासाठी पिकाचे नाव आणि किडीची लक्षणे सांगा.",
+
+    "पिकाला कीड लागल्यास काय करावे?": "प्रथम किडीची ओळख करा आणि तिचा प्रादुर्भाव किती आहे हे तपासा. निरीक्षण, स्वच्छता, सांस्कृतिक उपाय, यांत्रिक किंवा भौतिक नियंत्रण आणि योग्य असल्यास जैविक नियंत्रणाचा वापर करा. रासायनिक नियंत्रण आवश्यक असल्यास योग्य नोंदणीकृत उत्पादनाचा वापर त्याच्या लेबलवरील सूचना आणि सुरक्षितता नियमांनुसार करा. अधिक विशिष्ट सल्ल्यासाठी पिकाचे नाव आणि किडीची लक्षणे सांगा.",
+
+    "पिकाला पाणी कधी द्यावे?": "पिकाला पाणी देण्याचा निर्णय पिकाची अवस्था, जमिनीचा प्रकार, जमिनीतील ओलावा, हवामान आणि पिकाची पाण्याची गरज यावर आधारित असावा. जास्त पाणी देणे आणि पाण्याचा ताण दोन्ही टाळा. मातीतील ओलावा मोजणारा सेन्सर असल्यास त्याची माहिती पिकाची आणि जमिनीची स्थिती लक्षात घेऊन वापरता येते.",
+
+    "जास्त खत वापरल्यास काय होते?": "अति प्रमाणात खत वापरल्यामुळे पोषक घटकांचे असंतुलन, जमिनीत क्षारांचे प्रमाण वाढणे, पोषक घटकांची हानी, पर्यावरणीय परिणाम आणि पिकाचे नुकसान होऊ शकते. खताचा वापर पिकाची गरज, माती परीक्षण, पिकाची अवस्था आणि स्थानिक शिफारशींनुसार करावा.",
+
+    "एकात्मिक कीड व्यवस्थापन म्हणजे काय?": "एकात्मिक कीड व्यवस्थापन म्हणजे IPM. यामध्ये किडीचे निरीक्षण, प्रतिबंधात्मक व सांस्कृतिक उपाय, यांत्रिक किंवा भौतिक नियंत्रण, जैविक नियंत्रण आणि गरज असल्यास रासायनिक नियंत्रण यांचा एकत्रित वापर केला जातो. याचा उद्देश किडीचे प्रभावी व्यवस्थापन करताना अनावश्यक कीटकनाशकांचा वापर कमी करणे हा आहे.",
+
+    "पिकांचे रोग ओळखणे कठीण का असते?": "वेगवेगळे रोग, किडी, पोषक घटकांची कमतरता आणि वातावरणातील ताण यामुळे सारखी लक्षणे दिसू शकतात. योग्य ओळखीसाठी पिकाचे नाव, प्रभावित भाग, लक्षणांचे स्वरूप, लक्षणांची वाढ, शेतातील परिस्थिती आणि आवश्यक असल्यास फोटो किंवा तज्ज्ञांचे निदान यांची माहिती उपयोगी ठरते."
+  },
+
+  "hindi": {
+    "NPK क्या है?": "NPK का अर्थ नाइट्रोजन (N), फास्फोरस (P) और पोटैशियम (K) है। नाइट्रोजन पत्तियों और वनस्पति वृद्धि में मदद करता है, फास्फोरस जड़ों के विकास और प्रजनन वृद्धि में मदद करता है, जबकि पोटैशियम पौधे की मजबूती, जल संतुलन, तनाव सहनशीलता और फसल की गुणवत्ता में मदद करता है।",
+
+    "उर्वरक में नाइट्रोजन क्या है?": "नाइट्रोजन (N) पौधे की वनस्पति वृद्धि, पत्तियों के विकास और सामान्य वृद्धि में मदद करता है। इसकी आवश्यकता फसल, फसल की अवस्था, मिट्टी की स्थिति और मिट्टी परीक्षण के परिणाम पर निर्भर करती है।",
+
+    "उर्वरक में फास्फोरस क्या है?": "फास्फोरस (P) जड़ों के विकास, शुरुआती फसल वृद्धि, फूल आने और प्रजनन विकास के लिए महत्वपूर्ण है। इसकी मात्रा फसल और मिट्टी में उपलब्ध पोषक तत्वों की स्थिति के अनुसार तय करनी चाहिए।",
+
+    "उर्वरक में पोटैशियम क्या है?": "पोटैशियम (K) पौधे की मजबूती, जल संतुलन, तनाव सहनशीलता और फसल या फल की गुणवत्ता में मदद करता है। इसकी आवश्यकता फसल और मिट्टी की पोषक स्थिति पर निर्भर करती है।",
+
+    "गेहूं के लिए कौन सा उर्वरक उपयोगी है?": "गेहूं को संतुलित पोषण की आवश्यकता होती है, विशेष रूप से नाइट्रोजन, फास्फोरस और पोटैशियम की। नाइट्रोजन वृद्धि में, फास्फोरस जड़ों के विकास और शुरुआती स्थापना में, तथा पोटैशियम पौधे की मजबूती और तनाव सहनशीलता में मदद करता है। सही उर्वरक और मात्रा मिट्टी परीक्षण, फसल की अवस्था और स्थानीय कृषि सिफारिशों के आधार पर तय करनी चाहिए।",
+
+    "टमाटर की फसल के लिए कौन से पोषक तत्व जरूरी हैं?": "टमाटर की अच्छी वृद्धि और फल विकास के लिए नाइट्रोजन, फास्फोरस और पोटैशियम जरूरी हैं। मिट्टी की स्थिति और फसल के लक्षणों के अनुसार कैल्शियम, मैग्नीशियम, सल्फर और कुछ सूक्ष्म पोषक तत्व भी महत्वपूर्ण हो सकते हैं। पोषक तत्वों की आवश्यकता फसल की अवस्था के अनुसार बदलती है।",
+
+    "मिट्टी परीक्षण क्यों जरूरी है?": "मिट्टी परीक्षण से मिट्टी में उपलब्ध पोषक तत्वों और अन्य महत्वपूर्ण गुणों की जानकारी मिलती है। इससे अनावश्यक उर्वरक उपयोग कम किया जा सकता है और फसल के लिए बेहतर पोषण प्रबंधन की योजना बनाई जा सकती है।",
+
+    "फसल में कीटों का प्रबंधन कैसे करें?": "एकीकृत कीट प्रबंधन यानी IPM अपनाएं। सबसे पहले कीट की पहचान और निगरानी करें। रोकथाम और सांस्कृतिक उपाय अपनाएं, आवश्यकता होने पर प्रभावित पौधों या हिस्सों का प्रबंधन करें, लाभकारी जीवों को सुरक्षित रखें और जहां संभव हो वहां यांत्रिक या भौतिक नियंत्रण अपनाएं। रासायनिक कीटनाशक का उपयोग केवल आवश्यकता होने पर करें और उत्पाद के लेबल तथा सुरक्षा निर्देशों का पालन करें। विशेष सलाह के लिए फसल का नाम और कीट के लक्षण बताएं।",
+
+    "फसल में कीट लग जाए तो क्या करें?": "सबसे पहले कीट की पहचान करें और उसके प्रकोप का स्तर देखें। निगरानी, खेत की स्वच्छता, सांस्कृतिक उपाय, यांत्रिक या भौतिक नियंत्रण और उचित होने पर जैविक नियंत्रण अपनाएं। यदि रासायनिक नियंत्रण आवश्यक हो, तो उपयुक्त पंजीकृत उत्पाद का उपयोग उसके लेबल और सुरक्षा निर्देशों के अनुसार करें। अधिक विशिष्ट सलाह के लिए फसल और कीट के लक्षण बताएं।",
+
+    "फसल में पानी कब देना चाहिए?": "सिंचाई का निर्णय फसल की अवस्था, मिट्टी के प्रकार, मिट्टी की नमी, मौसम और फसल की पानी की आवश्यकता के आधार पर करें। अधिक सिंचाई और पानी की कमी दोनों से बचें। यदि मिट्टी की नमी का सेंसर उपलब्ध है, तो उसकी वास्तविक रीडिंग को फसल और मिट्टी की जानकारी के साथ उपयोग किया जा सकता है।",
+
+    "अधिक उर्वरक इस्तेमाल करने से क्या होता है?": "अधिक उर्वरक के उपयोग से पोषक तत्वों का असंतुलन, मिट्टी में लवणता बढ़ना, पोषक तत्वों की हानि, पर्यावरणीय प्रभाव और फसल को नुकसान हो सकता है। उर्वरक का उपयोग फसल की आवश्यकता, मिट्टी परीक्षण, फसल की अवस्था और स्थानीय कृषि सिफारिशों के अनुसार करना चाहिए।",
+
+    "एकीकृत कीट प्रबंधन क्या है?": "एकीकृत कीट प्रबंधन यानी IPM में कीटों की निगरानी, रोकथाम और सांस्कृतिक उपाय, यांत्रिक या भौतिक नियंत्रण, जैविक नियंत्रण और आवश्यकता होने पर रासायनिक नियंत्रण को एक साथ उपयोग किया जाता है। इसका उद्देश्य कीटों को प्रभावी ढंग से नियंत्रित करते हुए अनावश्यक कीटनाशक उपयोग को कम करना है।",
+
+    "फसल रोगों की पहचान करना कठिन क्यों होता है?": "अलग-अलग रोग, कीट, पोषक तत्वों की कमी और पर्यावरणीय तनाव के कारण समान लक्षण दिखाई दे सकते हैं। सही पहचान के लिए फसल का नाम, प्रभावित भाग, लक्षणों का स्वरूप, लक्षणों का फैलाव, खेत की परिस्थितियां और आवश्यकता होने पर फोटो या विशेषज्ञ की जांच उपयोगी होती है।"
+  }
+}
